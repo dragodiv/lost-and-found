@@ -31,6 +31,9 @@ Lead
 - Aayush Chopra  ( GitHub I'd :- YoAayush )
 - Divanshu Soni (👨‍💻: @dragodiv)
 
+Co-Lead
+- Utkarsh Singhal (Github :- Utkarsh-Singhal-26)
+
 Participants
 
 - Nijjil Narula( GitHub :-nijjilnarula)
@@ -40,7 +43,7 @@ Participants
 - Isha Negi (GitHub :- ishaNegi1)
 - Neeraj gupta (GitHub :- neeraj-gupta2005)
 - Tushar Mangla (Github:- tusharmangla19)
-- Utkarsh Singhal (Github :- Utkarsh-Singhal-26)
+
 <br><br>
 
 **Work Division:**
