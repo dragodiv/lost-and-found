@@ -12,7 +12,7 @@ A website to help you find things you've lost around the institute. Just let us 
 **Social Media Integration** : Enable users to post information about their lost items directly on social media, broadening the reach and enhancing the likelihood of recovering lost belongings.
 
 **Design:** 
-[Figma file link of Design](https://www.figma.com/file/1noYmwXepJPqWLwB7nxIda/%7CACE-Web-team?type=design&node-id=0-1&mode=design&t=zndHrkj9gYnIxCiT-0)
+[Figma file link of Design](https://www.figma.com/file/LLA7WIWqdOXwvgj8f7F2R3/_ACE-Web-team?type=design&node-id=0%3A1&mode=design&t=PZb3MVwFMH2HZkmr-1)
 
 **Github Repository:**
 [Link to Github Repository](https://github.com/dragodiv/lost-and-found)
