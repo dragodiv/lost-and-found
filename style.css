@@ -1,3 +1,153 @@
-body{
-    background-color: aquamarine;
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(180deg, #FD6967 0%, rgba(253, 105, 103, 0.839321) 16.07%, rgba(253, 105, 103, 0.839321) 55.07%, #FD6967 100%, #FE7C72 100%);
+}
+
+#logo img {
+    height: 60px;
+    width: 100px;
+    margin: 5px;
+    margin-left: 20px;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: white;
+    height: 100%;
+    width: 100%; 
+    opacity: 0.4;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#navbar ul {
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+#navbar ul li {
+    list-style: none;
+}
+
+#navbar ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 2px 20px;
+    font-size: 20px;
+}
+
+#navbar ul li a:hover {
+    border-radius: 20px;
+    color: black;
+    background: white;
+}
+
+@media screen and (max-width: 500px) {
+    #navbar::before {
+        width: 125vw; 
+    }
+}
+@media screen and (max-width: 400px) {
+    #navbar::before {
+        width: 170vw; 
+    }
+}
+@media screen and (max-width: 282px) {
+    #navbar::before {
+        width: 250vw; 
+    }
+}
+@media screen and (max-width: 200px) {
+    #navbar::before {
+        width: 350vw; 
+    }
+}
+
+
+.hero-container{
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.hero-container::before{
+    content: "";
+    background: url("/media/hero_image.svg") no-repeat center center/cover;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+#hero_title{
+    text-align:center;
+    font-family:'space grotesk';
+    font-size:6.25rem;
+    color:white;
+    padding-top:70px;
+    text-wrap:wrap;
+}
+
+.hero_btns{
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: center;
+    gap:160px;
+    padding-top:40px;
+}
+
+#hero_btn_1, #hero_btn_2{
+    height:82px;
+    width:305px;
+    border:3px solid white;
+    border-radius:15px;
+    opacity:0.85;
+}
+
+@media screen and (max-width:900px){
+    #hero_title{
+        font-size:5rem;
+    }
+    .hero_btns{
+        gap:120px;
+    }
+    #hero_btn_1, #hero_btn_2{
+        height:62px;
+        width:250px;
+    }
+}
+@media screen and (max-width:700px){
+    #hero_title{
+        font-size:4rem;
+    }
+    .hero_btns{
+        gap:50px;
+    }
+    #hero_btn_1, #hero_btn_2{
+        height:52px;
+        width:230px;
+    }
 }
